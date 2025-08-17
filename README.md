@@ -1,2 +1,30 @@
-# MGNREGA-Automation-Dashboard
-Automated tools for Generate E-Muster Roll, Muster Roll Payment Only, Generate Wagelist,Wagelist Send,e-MB,Scheme closed,Fto Generated,Job Card verification,Abps verification 
+MGNREGA-Automation-Dashboard/
+├── gui_dashboard.py
+├── browser_automation/
+│   ├── login_po.py
+│   ├── generate_muster.py
+│   ├── save_muster_pdf.py
+│   ├── muster_payment_only.py
+│   ├── generate_wagelist.py
+│   ├── send_wagelist.py
+│   ├── wagelist_remark_check.py
+│   ├── emb_entry.py
+│   ├── scheme_close.py
+│   ├── geotagging_report.py
+│   ├── jobcard_verification.py
+│   └── abps_verification.py
+├── data/
+│   ├── jobcard_list.xlsx
+│   ├── scheme_expenditure.xlsx
+│   └── geotag_pending.csv
+├── reports/
+│   ├── muster_rolls/
+│   ├── wagelists/
+│   ├── emb_entries/
+│   └── geotag_reports/
+├── utils/
+│   ├── browser_selector.py
+│   ├── pdf_saver.py
+│   └── excel_reader.py
+├── README.md
+└── requirements.txt
